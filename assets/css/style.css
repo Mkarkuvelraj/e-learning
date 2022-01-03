@@ -1,0 +1,58 @@
+section{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+span{
+    color: blue;
+    font-weight: bold;
+
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 10px;
+}
+
+
+
+li{
+    padding: 5px;
+}
+.nav-link{
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid transparent;
+
+}
+.nav-link:hover{
+    border-bottom: 2px solid red;
+    transition: .1s;
+}
+.navbar-brand{
+    font-size: 28px;
+    font-weight: 400;
+    font-weight: bold;
+
+}
+.centerdiv{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
